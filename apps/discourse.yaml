@@ -12,6 +12,5 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: dockerhub
-        namespace: apps
       interval: 5m
   interval: 2m
