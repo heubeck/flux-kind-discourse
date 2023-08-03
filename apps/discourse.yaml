@@ -20,3 +20,5 @@ spec:
       enabled: true
       ingressClassName: nginx
       hostname: localhost
+    extraEnvVarsCM:
+      - discourse-config

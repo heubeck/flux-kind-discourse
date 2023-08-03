@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: discourse
+  namespace: default
+data:
+  DISCOURSE_CONTENT_SECURITY_POLICY: "false"
+  DISCOURSE_SITESETTING_CONTENT_SECURITY_POLICY: "false"
+  SITESETTING_CONTENT_SECURITY_POLICY: "false"
+  DISCOURSE_FORCE_HTTPS: "false"
+  DISCOURSE_SITESETTING_FORCE_HTTPS: "false"
+  SITESETTING_FORCE_HTTPS: "false"
