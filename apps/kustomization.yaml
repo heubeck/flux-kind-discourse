@@ -4,4 +4,3 @@ kind: Kustomization
 resources:
 - docker-hub.yaml
 - discourse.yaml
-- ingress.yaml

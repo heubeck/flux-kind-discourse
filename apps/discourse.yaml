@@ -14,3 +14,9 @@ spec:
         name: dockerhub
       interval: 5m
   interval: 2m
+  values:
+    host: localhost:8080
+    ingress:
+      enabled: true
+      ingressClassName: nginx
+      hostname: localhost
