@@ -1,4 +1,4 @@
-create a secret like this:
+create a secret like this before bootstrapping:
 
 ```
 ---

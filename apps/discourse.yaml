@@ -16,9 +16,3 @@ spec:
   interval: 2m
   values:
     host: localhost:8080
-    ingress:
-      enabled: true
-      ingressClassName: nginx
-      hostname: localhost
-    extraEnvVarsCM:
-      - discourse-config
