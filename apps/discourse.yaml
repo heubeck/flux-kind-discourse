@@ -16,3 +16,20 @@ spec:
   interval: 2m
   values:
     host: localhost:8080
+    discourse:
+      plugins:
+        - https://github.com/Mbond65/discourse_user_auto_activation
+        - https://github.com/discourse/discourse-solved
+        - https://github.com/discourse/discourse-spoiler-alert
+        - https://github.com/discourse/discourse-sublime-theme
+      livenessProbe:
+        initialDelaySeconds: 60
+        failureThreshold: 100
+        periodSeconds: 20
+      readinessProbe:
+        failureThreshold: 10
+        periodSeconds: 20
+      startupProbe:
+        enabled: true
+        periodSeconds: 10
+        failureThreshold: 100
